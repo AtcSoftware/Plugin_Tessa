@@ -1,0 +1,19 @@
+<Module>
+	<Name>Plugin_Tessa</Name>
+	<Type>Plugin</Type>
+	<Url>https://github.com/AtcSoftware/Plugin_Tessa</Url>
+	<Last_Release>
+		<windows>0.1</windows>
+	</Last_Release>
+	<Releases>
+		<Release>
+			<system>windows</system>
+			<number>0.1</number>
+			<title>Initial</title>
+			<date>2020.12.21</date>
+			<time>08:15</time>
+			<branch>release_0.1_windows</branch>
+			<dev_commit>2b9f8e9f5e9bdb9914b6e29db9f1a274eb95d65d</dev_commit>
+		</Release>
+	</Releases>
+</Module>
