@@ -10,10 +10,11 @@
 			<system>windows</system>
 			<number>0.1</number>
 			<title>Initial</title>
-			<date>2020.12.21</date>
-			<time>08:15</time>
+			<date>2020.12.23</date>
+			<time>18:33</time>
 			<branch>release_0.1_windows</branch>
 			<dev_commit>2b9f8e9f5e9bdb9914b6e29db9f1a274eb95d65d</dev_commit>
+			<comments>Initial release of Plugin_Tessa</comments>
 		</Release>
 	</Releases>
 </Module>
