@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PurlinsForm</class>
+ <widget class="QDialog" name="PurlinsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>254</width>
+    <height>123</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Beam Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Atributos</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleCreateFit">
+        <property name="text">
+         <string>Criar ajuste</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>CreateFit</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string>toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBoxCreateFit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentText">
+         <string>Yes</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>CreateFit</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleRafterBase">
+        <property name="text">
+         <string>Base de caibro</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>RafterBase</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string>toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxRafterBase">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentText">
+         <string>No</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>RafterBase</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string/>
+        </property>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleBaseDistance">
+        <property name="text">
+         <string>Deslocamento</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>BaseDistance</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string>toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxBaseDistance">
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="minimum">
+         <double>-100000000000.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100000000000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>0.000000000000000</double>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string>BaseDistance</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

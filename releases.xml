@@ -3,7 +3,7 @@
 	<Type>Plugin</Type>
 	<Url>https://github.com/AtcSoftware/Plugin_Tessa</Url>
 	<Last_Release>
-		<windows>0.12</windows>
+		<windows>0.13</windows>
 	</Last_Release>
 	<Releases>
 		<Release>
@@ -35,6 +35,16 @@
 			<branch>release_0.12_windows</branch>
 			<dev_commit>ab5764d90d98505db5ea0305b2f3d55f612e5282</dev_commit>
 			<comments>Remove obsolete components</comments>
+		</Release>
+		<Release>
+			<system>windows</system>
+			<number>0.13</number>
+			<title>Remove obsolete components</title>
+			<date>2021.01.24</date>
+			<time>21:22</time>
+			<branch>release_0.13_windows</branch>
+			<dev_commit>11669ef500e1c0589dffa311d17a5637a5ff8da8</dev_commit>
+			<comments>Upgrade</comments>
 		</Release>
 	</Releases>
 </Module>
