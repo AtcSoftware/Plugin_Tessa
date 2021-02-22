@@ -229,6 +229,21 @@
 			<unit></unit>			
 		</width>		
 	</sketch>
+	<sketch name="UEP80*39*41*10*0.80_sketch">
+		<sketch_name>
+			<name></name>
+		</sketch_name>
+		<height>
+			<name></name>
+			<symbol></symbol>
+			<unit></unit>			
+		</height>
+		<width>
+			<name></name>
+			<symbol></symbol>
+			<unit></unit>			
+		</width>		
+	</sketch>
 	<sketch name="CE30X20X9X0.65_sketch">
 		<sketch_name>
 			<name></name>

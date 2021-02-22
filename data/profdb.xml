@@ -105,6 +105,13 @@
 			<width name="Width" symbol="w" unit="mm">41</width>
 			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.036209</weight_by_length>
 		</profile>
+		<profile name="UEP80*39*41*10*0.80">
+			<sketch_name name="Sketch name">UEP80_39_41_10_0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">80</height>
+			<width name="Width" symbol="w" unit="mm">41</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.036209</weight_by_length>
+		</profile>
 		<profile name="CE30X20X9X0.65">
 			<sketch_name name="Sketch name">CE30X20X9X0.65</sketch_name>
 			<parametric name="Parametric">False</parametric>
