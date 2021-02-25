@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PurlinsForm</class>
+ <widget class="QDialog" name="PurlinsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>232</width>
+    <height>84</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Beam Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Atributos</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleBoltsNumber">
+        <property name="text">
+         <string>Parafusos</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">BoltsNumber</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="spinBoxBoltsNumber">
+        <property name="contextMenuPolicy">
+         <enum>Qt::NoContextMenu</enum>
+        </property>
+        <property name="suffix">
+         <string/>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>2</number>
+        </property>
+        <property name="value">
+         <number>1</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">BoltsNumber</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
